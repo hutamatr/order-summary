@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e8ff;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 50px auto;
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f7ff;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.header-card .image-card {
+  width: 375px;
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.body-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0 0 25px 25px;
+  padding: 10px;
+}
+.body-card .section-order {
+  padding: 20px;
+}
+.body-card .section-order .title-card {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 900;
+  color: #1f2f56;
+  margin: 10px;
+}
+.body-card .section-order .description-card {
+  text-align: center;
+  color: #7280a7;
+  font-size: 16px;
+}
+.body-card .section-plan {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: #e0e8ff;
+  padding: 10px 15px;
+  border-radius: 15px;
+  gap: 15px;
+}
+.body-card .section-plan .annual-plan {
+  justify-self: start;
+}
+.body-card .section-plan .annual-plan h4,
+.body-card .section-plan .annual-plan p {
+  text-align: center;
+}
+.body-card .section-plan a {
+  text-decoration: underline;
+  color: #3829e0;
+}
+.body-card .section-plan a:hover {
+  color: #7280a7;
+}
+.body-card .button-payment {
+  background-color: #3829e0;
+  border: none;
+  padding: 10px 90px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  color: #f5f7ff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.body-card .button-payment:hover {
+  background-color: #7280a7;
+}
+.body-card a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 20px;
+  color: #7280a7;
+}
+.body-card a:hover {
+  color: #1f2f56;
+}
+
+.footer {
+  font-weight: 600;
+  text-align: center;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+  }
+}/*# sourceMappingURL=order-summary.css.map */
