@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-card-component-with-flexbox-css-grid-and-css-preprocessor-nQZJ-_Aa6)
+- Live Site URL: [Demo](https://hutamatr.github.io/order-summary-component/)
 
 ## My process
 
