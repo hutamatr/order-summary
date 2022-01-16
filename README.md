@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-card-component-with-flexbox-css-grid-and-css-preprocessor-nQZJ-_Aa6)
-- Live Site URL: [Demo](https://hutamatr.github.io/order-summary-component/)
+- Live Site URL: [Demo](https://hutamatr.github.io/order-summary/)
 
 ## My process
 
